@@ -1,0 +1,119 @@
+.ui.vertical.basic.segment.masthead {
+  height: 635px;
+  background: url('images/apartment1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.logo {
+  height: 50px;
+  width: 145px;
+}
+
+.ui.inverted.center.aligned.header.slogan{
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.item.QRcode {
+  width: 128px;
+  height: 128px;
+}
+
+.ui.yellow.circular.button.{
+  width: 220px;
+}
+
+.ui.image.logo {
+  position: relative;
+  top: 30px;
+}
+
+.ui.fluid.selection.dropdown.country {
+  position: relative;
+  top: 64px;
+}
+
+.ui.inverted.segment.cardview {
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ui.vertical.basic.segment.recommended{
+  margin-bottom: 80px;
+}
+
+
+.ui.vertical.basic.segment.recommended > .ui.center.aligned.header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ui.inverted.segment.cardview > .ui.header {
+  margin-bottom: 135px;
+}
+
+/* .card.imgs {
+  height: 220px;
+  background: url('images/800bristolroad.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.card.words {
+  position: relative;
+} */
+
+
+.ui.basic.segment.aboutus {
+  height: 500px;
+  background: rgb(242, 240, 233);
+  background-size: cover;
+  position: relative;
+}
+
+.four.wide.column {
+  position: relative;
+}
+
+.ui.circular.segment {
+  background: url('images/feature1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.ui.basic.segment.aboutus > .ui.grid {
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+
+
+}
+.ui.basic.segment.aboutus > .ui.center.aligned.header {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-top: 50px;
+  transform: translate(-50%,-50%);
+}
+
+.ui.circular.segment > .ui.header {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+}
