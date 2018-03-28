@@ -80,9 +80,18 @@
   position: relative;
 }
 
-.four.wide.column {
+.two.wide.column {
   position: relative;
 }
+
+.two.wide.column.first {
+  left: 3%;
+}
+
+.three.wide.column {
+    left: 3%;
+}
+
 
 .ui.circular.segment {
   background: url('images/feature1.png');
@@ -116,4 +125,15 @@
   left: 50%;
   transform: translate(-50%,-50%);
   width: 200px;
+}
+
+.copyright {
+  position: absolute;
+  height: 20px;
+  font-size: 12px;
+  color: rgb(155, 158, 155);
+  transform: translate(-50%,-50%);
+  left: 50%;
+  margin-top: 18px;
+
 }
