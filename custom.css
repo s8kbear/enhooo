@@ -21,24 +21,13 @@
 }
 
 
-.item.QRcode {
-  width: 128px;
-  height: 128px;
-}
 
-.ui.yellow.circular.button.{
+
+.ui.orange.circular.button.{
   width: 220px;
 }
 
-.ui.image.logo {
-  position: relative;
-  top: 30px;
-}
 
-.ui.fluid.selection.dropdown.country {
-  position: relative;
-  top: 64px;
-}
 
 .ui.inverted.segment.cardview {
   height: 220px;
@@ -73,7 +62,7 @@
 } */
 
 
-.ui.basic.segment.aboutus {
+.ui.vertical.basic.segment.aboutus {
   height: 500px;
   background: rgb(242, 240, 233);
   background-size: cover;
@@ -104,14 +93,14 @@
   transform: translate(-50%,-50%);
 }
 
-.ui.basic.segment.aboutus > .ui.grid {
+.ui.vertical.basic.segment.aboutus > .ui.grid {
   position: relative;
   top: 50%;
   transform: translate(0,-50%);
 
 
 }
-.ui.basic.segment.aboutus > .ui.center.aligned.header {
+.ui.vertical.basic.segment.aboutus > .ui.center.aligned.header {
   position: absolute;
   top: 40px;
   left: 50%;
@@ -135,5 +124,22 @@
   transform: translate(-50%,-50%);
   left: 50%;
   margin-top: 18px;
+}
 
+
+
+
+.ui.image.logo {
+  position: relative;
+  top: 30px;
+}
+
+.item.QRcode {
+  width: 128px;
+  height: 128px;
+}
+
+.ui.fluid.selection.dropdown.country {
+  position: relative;
+  top: 64px;
 }
